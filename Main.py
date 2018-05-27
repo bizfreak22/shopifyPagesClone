@@ -83,7 +83,7 @@ try:
             else:
                 print('Your information_mapping file contains error. Please fix it!')
 except IOError:
-    print('It looks like information_mapping.txt file does not exist. No value will be changed from source shop')
+    print('It looks like information_mapping.txt file does not exist. No value will be changed from source shop to push to destination shop')
 
 # Get pages from source shop
 
